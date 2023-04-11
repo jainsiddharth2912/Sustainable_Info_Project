@@ -1,0 +1,97 @@
+/* Global styles */
+body {
+  margin: 0 auto;
+  max-width: 950px; /* Increased max-width */
+  padding: 0 25px;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 18px; /* Increased font size */
+  line-height: 1.7; /* Increased line height */
+  color: #444;
+  background-color: #f5f5f5;
+}
+
+h1 {
+  font-size: 3.2rem; /* Increased font size */
+  font-weight: bold;
+  color: #444;
+  text-align: center;
+  margin-top: 3rem; /* Increased margin-top */
+}
+
+h1, h2, h3 {
+  margin-top: 45px; /* Increased margin-top */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 45px auto; /* Increased margin */
+}
+
+p, ul {
+  margin: 25px 0; /* Increased margin */
+}
+
+ul {
+  list-style: disc;
+  margin-left: 35px; /* Increased margin-left */
+}
+
+/* Page-specific styles */
+h1 {
+  text-align: center;
+  font-size: 38px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+img {
+  max-width: 650px;
+}
+
+/* Media queries */
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  img {
+    margin: 25px auto;
+  }
+}
+
+.sidebar {
+  background-color: #fdfcf3; /* Light cream color */
+  padding: 20px; /* Increased padding */
+  margin: 20px; /* Increased margin */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.formula {
+  font-style: italic;
+  font-weight: bold;
+  margin: 20px; /* Increased margin */
+  padding: 20px; /* Increased padding */
+  background-color: #fdfcf3; /* Light cream color */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
